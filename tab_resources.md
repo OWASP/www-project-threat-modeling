@@ -10,6 +10,10 @@ tags: threatmodeling
 
 The best resource to start learning about threat modeling or improving your existing process, is the [Threat Modeling Manifesto](https://www.threatmodelingmanifesto.org/). This Manifesto was created by a group of leading threat modeling professionals.
 
+## Reference Charts & Frameworks
+
+- [Threat Severity Chart](resources/threat-severity-chart)
+
 ## Threat Modeling OWASP Projects (Tools and Guidance)
 
   - [OWASP Threat Dragon](https://owasp.org/www-project-threat-dragon/)
