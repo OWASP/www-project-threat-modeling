@@ -33,7 +33,7 @@ The **Context** column indicates which environment(s) the row applies to. Where 
 
 - **All** — applies to both Server / Cloud and Client
 - **Server / Cloud** — on-premises servers, virtualised infrastructure, and cloud-hosted services (IaaS, PaaS, SaaS, multi-tenant APIs)
-- **Client** — browsers, desktop applications, mobile/store apps, and local user-mode processes
+- **Client** — browsers, desktop applications, mobile/store apps, and processes running in a local interactive user session
 
 | Level | Category | Context | Auth Required | User Interaction | Security Impact | Definition | Examples |
 |-------|----------|---------|--------------|-----------------|-----------------|------------|----------|
