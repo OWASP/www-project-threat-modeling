@@ -26,7 +26,7 @@ The best resource to start learning about threat modeling or improving your exis
   - [OWASP Threat Modelling Guide](https://owasp.org/www-project-threat-modelling-guide/)
   - [OWASP Threat Modeling Playbook](https://owasp.org/www-project-threat-modeling-playbook/)
   - [OWASP Dragon GPT](https://owasp.org/www-project-dragon-gpt/)
-  - [OWASP Precogly](https://github.com/precogly/precogly)
+  - [OWASP Precogly](https://precogly.github.io/precogly/)
 
 ## Additional OWASP References
 
