@@ -22,6 +22,12 @@ This project will gather techniques, methodologies, tools and examples. We will 
 
 Example: if you are looking for different diagramming techniques you will want to look for all the techniques answering the question "What are we working on."
 
+### Methodology-neutral positioning
+
+The OWASP Threat Modeling Project does not define a single official OWASP threat modeling methodology. The project supports a range of approaches, including STRIDE, PASTA, LINDDUN, attack trees, abuse cases, and other community practices.
+
+Different methods may be appropriate depending on system context, security and privacy goals, team maturity, delivery model, and regulatory needs. Contributions should explain their scope, assumptions, and intended use so practitioners can choose and adapt approaches responsibly.
+
 ### Guiding principles:
 
 This project follows a number of principles that all contributions must adhere to:
