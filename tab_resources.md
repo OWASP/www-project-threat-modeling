@@ -10,6 +10,16 @@ tags: threatmodeling
 
 The best resource to start learning about threat modeling or improving your existing process, is the [Threat Modeling Manifesto](https://www.threatmodelingmanifesto.org/). This Manifesto was created by a group of leading threat modeling professionals.
 
+## Ecosystem Navigation
+
+Use this page as a map across threat modeling resources:
+
+- Tools and project guidance: OWASP projects listed below, including modeling tools, libraries, playbooks, and AI-assisted tooling.
+- Reference charts and frameworks: classification aids such as the Threat Severity Chart.
+- Related OWASP guidance: community pages, Security Culture, and DevSecOps guidance.
+- External references: books, process guidance, and practice material from the wider threat modeling community.
+- Future ecosystem areas: examples, benchmarks, interoperability formats, and reference architectures can be added as they become available.
+
 ## Reference Charts & Frameworks
 
 - [Threat Severity Chart](resources/threat-severity-chart)
