@@ -9,6 +9,8 @@ pitch: Central repository of threat modeling information, techniques, and method
 
 ---
 
+> **Status:** Maintained Project Guidance
+
 This is a documentation project. We provide information on threat modeling techniques for applications of all types, with a focus on current and emerging techniques.
 
 Most threat model techniques answer one or more of the following questions:

@@ -8,6 +8,8 @@ tags: threatmodeling
 
 ---
 
+> **Status:** Resource Index / Community References
+
 The best resource to start learning about threat modeling or improving your existing process, is the [Threat Modeling Manifesto](https://www.threatmodelingmanifesto.org/). This Manifesto was created by a group of leading threat modeling professionals.
 
 ## Reference Charts & Frameworks
@@ -30,9 +32,11 @@ The best resource to start learning about threat modeling or improving your exis
 
 ## Additional OWASP References
 
+These links include related OWASP project and community resources. Community pages may include historical material and should be read according to the status shown on those pages.
+
   - [Threat Modeling in OWASP Security Culture](https://owasp.org/www-project-security-culture/v10/6-Threat_Modelling/)
   - [Threat Modeling in OWASP Community Pages](https://owasp.org/www-community/Threat_Modeling)
-  - [Threat Modeling Process in OWASP Community Pages](https://owasp.org/www-community/Threat_Modeling_Process)
+  - [Threat Modeling Process in OWASP Community Pages (historical)](https://owasp.org/www-community/Threat_Modeling_Process)
   - [Threat Modeling at the OWASP DevSecOps Guideline Project](https://owasp.org/www-project-devsecops-guideline/latest/00b-Threat-modeling)
 
 
