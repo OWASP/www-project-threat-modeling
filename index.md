@@ -22,7 +22,7 @@ Most threat model techniques answer one or more of the following questions:
 
 Use the Four Question Framework as a methodology-neutral starting point:
 
-1. **What are we working on?** Understand the system, users, assets, dependencies, assumptions, and trust boundaries.
+1. **What are we working on?** Understand the project scope, and possibly the system, users, dependencies, assumptions, or trust boundaries.
 2. **What can go wrong?** Identify threats, misuse cases, design assumptions, and security or privacy concerns.
 3. **What are we going to do about that?** Prioritize risks and define mitigations, design changes, tests, or follow-up work.
 4. **Did we do a good enough job?** Review outcomes, track decisions and assumptions, and revisit remaining risks over time.
