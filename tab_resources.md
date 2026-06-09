@@ -10,6 +10,36 @@ tags: threatmodeling
 
 The best resource to start learning about threat modeling or improving your existing process, is the [Threat Modeling Manifesto](https://www.threatmodelingmanifesto.org/). This Manifesto was created by a group of leading threat modeling professionals.
 
+## Related Frameworks and References
+
+Threat modeling often intersects with other security frameworks, taxonomies, and reference models. These resources serve different purposes and are frequently used together.
+
+| Resource | Typical Purpose |
+| -------- | --------------- |
+| STRIDE | Threat classification model commonly used during threat identification |
+| CAPEC | Attack pattern catalog describing adversary techniques |
+| CWE | Weakness classification system |
+| OWASP Top 10 | Awareness and prioritization reference for common web application risks |
+| ASVS | Application security verification and control requirements |
+| MASVS | Mobile application security verification standard |
+| MITRE ATT&CK / ATLAS | Adversary tactics, techniques, and procedures (TTPs) |
+| Cheat Sheets | Practical implementation and mitigation guidance |
+
+These resources are complementary rather than interchangeable.
+
+For example:
+
+- STRIDE and CAPEC may help identify threats.
+- CWE and OWASP Top 10 may help classify weaknesses.
+- ASVS and MASVS may help define mitigations and security requirements.
+
+The OWASP Threat Modeling Project supports a broad ecosystem of methodologies, tools, and references that can help organizations answer the four core threat modeling questions:
+
+1. What are we working on?
+2. What can go wrong?
+3. What are we going to do about that?
+4. Did we do a good enough job?
+
 ## Reference Charts & Frameworks
 
 - [Threat Severity Chart](resources/threat-severity-chart)
