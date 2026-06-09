@@ -32,7 +32,8 @@ The best resource to start learning about threat modeling or improving your exis
 
 ## Additional OWASP References
 
-These links include related OWASP project and community resources. Community pages may include historical material and should be read according to the status shown on those pages.
+These links include related OWASP project and community resources.
+Some of these pages may include historical material and should be read according to this status shown below.
 
   - [Threat Modeling in OWASP Security Culture](https://owasp.org/www-project-security-culture/v10/6-Threat_Modelling/)
   - [Threat Modeling in OWASP Community Pages](https://owasp.org/www-community/Threat_Modeling)
