@@ -11,17 +11,10 @@ pitch: Central repository of threat modeling information, techniques, and method
 
 This is a documentation project. We provide information on threat modeling techniques for applications of all types, with a focus on current and emerging techniques.
 
-Most threat model techniques answer one or more of the following questions:
-
-* What are we working on?
-* What can go wrong?
-* What are we going to do about that?
-* Did we do a good enough job?
-
 ## New to threat modeling? Start here
 
-Use the Four Question Framework as a methodology-neutral starting point:
-
+Use [Shostack's Four Question Framework](https://github.com/adamshostack/4QuestionFrame) as a methodology-neutral starting point:
+ 
 1. **What are we working on?** Understand the project scope, and possibly the system, users, dependencies, assumptions, or trust boundaries.
 2. **What can go wrong?** Identify threats, misuse cases, design assumptions, and security or privacy concerns.
 3. **What are we going to do about it?** Prioritize risks and define mitigations, design changes, tests, or follow-up work.
