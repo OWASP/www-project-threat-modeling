@@ -5,13 +5,16 @@ title: OWASP Threat Modeling Project
 tags: threatmodeling
 level: 2
 type: documentation
-pitch: Central repository of threat modeling information, techniques, and methodologies
+pitch: Threat modeling information, techniques, and methodologies
 
 ---
 
-This is the maintained entry point for OWASP Threat Modeling Project resources. It connects current guidance, community references, tools, examples, and historical material while recognizing that there are various threat modeling methodologies.
+**Status:** Maintained Project Guidance
 
-This is a documentation project. We provide information on threat modeling techniques for applications of all types, with a focus on current and emerging techniques.
+This documentation project is the maintained entry point for OWASP Threat Modeling Project resources.
+It connects current guidance, community references, tools, examples, and historical material while recognizing that there are various threat modeling methodologies.
+
+This project provides information on threat modeling techniques for applications of all types, with a focus on current and emerging techniques.
 
 Most threat model techniques answer one or more of the following questions:
 

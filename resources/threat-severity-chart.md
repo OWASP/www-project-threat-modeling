@@ -4,6 +4,8 @@ layout: col-sidebar
 tags: threatmodeling
 ---
 
+> **Status:** Reference Chart
+
 ## Threat Severity Classification Framework
 
 Adapted from the Microsoft SDL Bug Bar. This framework is used to triage and classify threats against our systems, services, and devices. Severity is assigned based on the nature of the threat, the context in which it can be triggered, and the degree of user interaction or authentication required.
