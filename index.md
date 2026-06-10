@@ -16,12 +16,16 @@ It connects current guidance, community references, tools, examples, and histori
 
 This project provides information on threat modeling techniques for applications of all types, with a focus on current and emerging techniques.
 
-Most threat model techniques answer one or more of the following questions:
+## New to threat modeling? Start here
 
-* What are we working on?
-* What can go wrong?
-* What are we going to do about that?
-* Did we do a good enough job?
+Use [Shostack's Four Question Framework](https://github.com/adamshostack/4QuestionFrame) as a methodology-neutral starting point:
+ 
+1. **What are we working on?** Understand the project scope, and possibly the system, users, dependencies, assumptions, or trust boundaries.
+2. **What can go wrong?** Identify threats, misuse cases, design assumptions, and security or privacy concerns.
+3. **What are we going to do about it?** Prioritize risks and define mitigations, design changes, tests, or follow-up work.
+4. **Did we do a good job?** Review outcomes, track decisions and assumptions, and revisit remaining risks over time.
+
+The [Threat Modeling tab](https://owasp.org/www-project-threat-modeling/#div-threatmodeling) introduces the practice, the [Application Threat Modeling tab](https://owasp.org/www-project-threat-modeling/#div-application-tm) describes a practical application workflow, and the [Resources tab](https://owasp.org/www-project-threat-modeling/#div-resources) lists tools, references, and related OWASP projects.
 
 This project will gather techniques, methodologies, tools and examples. We will group these using the four questions. This will allow people to easily find advice they can use.
 
