@@ -57,7 +57,8 @@ Some of these pages may include historical material and should be read according
 ## Additional References
 
   - [Adam Shostack - "Threat Modeling: Designing for Security"](https://shostack.org/books/threat-modeling-book)
-  - [Tony Uceda-Velez - "Risk Centric Threat Modeling: Process for Attack Simulation and Threat Analysis"](https://versprite.com/author/tony-ucedavelez/)
+  - [Tony Uceda-Velez - "Risk Centric Threat Modeling: Process for Attack Simulation and Threat Analysis (PASTA)"](https://versprite.com/author/tony-ucedavelez/)
+  - [Marco Mirko Morana & Tony UcedaVelez - "Process for Attack Simulation and Threat Analysis (PASTA) Book"](https://www.wiley.com/en-us/shop/general-introductory-security-management/risk-centric-threat-modeling-process-for-attack-simulation-and-threat-analysis-p-9781118988350#aboutauthors-section)
   - [Brook Schoenfield - "Securing Systems: Applied Security Architecture and Threat Modeling"](http://brookschoenfield.com/?page_id=245)
   - [Microsoft's Security Development Process](https://www.microsoft.com/en-us/securityengineering/sdl)
   - [Microsoft Threat Modeling & Tool](https://www.microsoft.com/en-us/securityengineering/sdl/threatmodeling)
