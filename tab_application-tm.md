@@ -91,6 +91,52 @@ threats” is part of sprint delivery or merging, while the broader question is 
 
 After a security incident, going back and checking the threat models can be an important process.
 
+#### Threat Model Refresh Triggers for Adaptive and Agentic Systems
+
+A threat model can become stale even when the system diagram looks unchanged.
+
+Adaptive and agentic components may gain new authority, new context, or the ability to create external effects. Refresh the relevant part of the threat model when any of these change:
+
+- **Tools and actions:** APIs, plugins, MCP servers, commands, write operations, or other executable capabilities.
+- **Identity and authority:** Credentials, service identities, delegated permissions, impersonation rights, scopes, or tenant access.
+- **Instructions and policy:** System instructions, agent policies, routing rules, guardrails, or approval conditions.
+- **Models and providers:** Model versions, hosting providers, model routing, or fallback behaviour.
+- **Memory and context:** Retrieval sources, long-term memory, vector stores, user history, or shared context.
+- **Human oversight:** Approval steps that are added, removed, delayed, bypassed, or moved after an action.
+- **Orchestration:** A component becomes multi-agent, delegates work, or assigns tools and permissions dynamically.
+- **Consequences:** An advisory output can now modify infrastructure, transfer value, contact users, change records, or execute code.
+- **Detection and recovery:** Logging, evaluation thresholds, anomaly detection, rollback, revocation, or emergency stop behaviour.
+
+Do not repeat the entire exercise. Focus on the change.
+
+Ask four questions:
+
+1. What new authority or trusted context was introduced?
+2. Which untrusted inputs can influence its use?
+3. What security, privacy, safety, or operational consequence can result?
+4. How is the action constrained, approved, observed, tested, and reversed?
+
+For example, a customer support agent may initially search documentation and draft replies.
+
+It is later allowed to issue refunds. The architecture may look similar, but its authority and potential consequences have changed.
+
+Refresh the model around:
+
+- the identity that authorises the refund;
+- transaction and frequency limits;
+- influence from customer-controlled content;
+- duplicate or recursive execution;
+- human approval;
+- audit evidence;
+- detection and reversal of an incorrect refund.
+
+This is a refresh heuristic, not a separate threat-modeling methodology.
+
+For deeper guidance, see:
+
+- [OWASP Multi-Agentic System Threat Modeling Guide](https://genai.owasp.org/resource/multi-agentic-system-threat-modeling-guide-v1-0/)
+- [OWASP Top 10 for Agentic Applications](https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/)
+
 #### Threat Modeling: Engagement Versus Review
 
 Threat modeling at a whiteboard can be a fluid exchange of ideas between diverse participants. Using the whiteboard to construct a model
