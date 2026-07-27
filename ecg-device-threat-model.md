@@ -27,7 +27,7 @@ ECG is the abbreviation for an Electrocardiogram. It is used to detect electrica
 - Network interface (Ethernet/Wi-Fi/Bluetooth), if supported  
 
 ## Data Flow Diagram
-Electrodes → Lead wires → Amplifier and filters → Analogue-to-Digital Converter (ADC) → Main processing unit → Display / Printer / Local storage / Network interface (if supported) → Electronic Health Record (EHR) / Clinical Information System
+Electrodes → Lead wires → Amplifier and filters → Analogue-to-Digital Converter (ADC) → Main processing unit → Display / Printer / Local storage / Network interface (if supported) |TRUST BOUNDARY| → Electronic Health Record (EHR) / Clinical Information System
 
 ## STRIDE Threats
 
