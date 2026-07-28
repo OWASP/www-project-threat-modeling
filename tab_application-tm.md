@@ -91,9 +91,9 @@ threats” is part of sprint delivery or merging, while the broader question is 
 
 After a security incident, going back and checking the threat models can be an important process.
 
-#### Threat Model Refresh Triggers for Adaptive and Agentic Systems
+##### Refresh Triggers for Adaptive and Agentic Components
 
-A threat model can become stale even when the system diagram looks unchanged.
+The guidance above assumes a change is visible in the architecture diagram or dataflow. Agentic components do not always meet that assumption: their behaviour, authority, or effects can shift between deployments without any visible change to the diagram. A threat model can become stale even when the system diagram looks unchanged.
 
 Adaptive and agentic components may gain new authority, new context, or the ability to create external effects. Refresh the relevant part of the threat model when any of these change:
 
