@@ -15,13 +15,14 @@ concurrency:
   cancel-in-progress: true
   group: ${{ github.repository }}-${{ github.workflow }}-${{ github.ref }}
 
+# for security reasons the github actions are pinned to specific version/sha
 jobs:
   validate-metadata:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v7
+        uses: actions/checkout@v7.0.1
 
       - name: Validate metadata file
         uses: owasp/nest-schema/.github/actions/validate@011b47d59567ae7cfd246948c67503ba2f6cc15b
