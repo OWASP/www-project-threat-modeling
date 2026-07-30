@@ -93,7 +93,7 @@ After a security incident, going back and checking the threat models can be an i
 
 ##### Refresh Triggers for Adaptive and Agentic Components
 
-The guidance above assumes a change is visible in the architecture diagram or dataflow. Agentic components do not always meet that assumption: their behaviour, authority, or effects can shift between deployments without any visible change to the diagram. A threat model can become stale even when the system diagram looks unchanged.
+The guidance above assumes a change is visible in the architecture or dataflow. Agentic components do not always meet that assumption: their behaviour, authority, or effects can shift between deployments without any visible change to either. A threat model can become stale even when the architecture and dataflow look unchanged.
 
 Revisit the model when an agent gains new tools or actions, new authority or identity, new orchestration relationships, or when its outputs gain new real world consequences. For the detailed trigger catalog, refresh heuristic, and a worked example, see the [AI and Agentic Threat Modeling](https://owasp.org/www-project-threat-modeling/#div-ai-tm) page.
 

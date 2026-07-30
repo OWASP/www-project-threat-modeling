@@ -15,7 +15,7 @@ This page extends the "When to Threat Model" guidance on the [Application Threat
 
 ### Refresh Triggers for Adaptive and Agentic Components
 
-The general guidance assumes a change is visible in the architecture diagram or dataflow. Agentic components do not always meet that assumption: their behaviour, authority, or effects can shift between deployments without any visible change to the diagram. A threat model can become stale even when the system diagram looks unchanged.
+The general guidance assumes a change is visible in the architecture or dataflow. Agentic components do not always meet that assumption: their behaviour, authority, or effects can shift between deployments without any visible change to either. A threat model can become stale even when the architecture and dataflow look unchanged.
 
 Adaptive and agentic components may gain new authority, new context, or the ability to create external effects. Refresh the relevant part of the threat model when any of these change:
 
