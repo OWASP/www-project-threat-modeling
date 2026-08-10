@@ -57,36 +57,33 @@ As a checklist, each control paired with the drift it is there to catch:
 
 Where none of this exists yet, the fallback is a standing agenda item: at each release review, ask what the component can do now that it could not do at the previous release.
 
-### Refresh Heuristic: Four Questions
+### Refreshing with the Four Questions
 
-Do not repeat the entire exercise. Focus on the change, and ask four questions:
+Do not repeat the entire exercise. Scope the [four questions][fourq] to what changed:
 
-1. What new authority or trusted context was introduced?
-2. Which untrusted inputs can influence its use?
-3. What security, privacy, safety, or operational consequence can result?
-4. How is the action constrained, approved, observed, tested, and reversed?
+1. **What are we working on?** What authority was added, in tools, permissions, or identities, and what new inputs does the component now trust?
+2. **What can go wrong?** What security, privacy, safety, or operational consequence can result, and which of those inputs can steer it there?
+3. **What are we going to do about it?** How is the action constrained, approved, observed, and reversed?
+4. **Did we do a good job?** What evidence shows the constraints hold: evaluations, audit trails, a recorded review against the current capability manifest?
 
-This is a refresh heuristic, not a separate threat modeling methodology.
+This is the same framework as the rest of the site, scoped to a change, not a separate methodology.
 
 ### Example Scenario
 
 Say a customer support agent starts out only searching documentation and drafting replies, then is later allowed to issue refunds. The architecture may look the same, but its authority and potential consequences have changed.
 
-Refreshing the model around that change:
-
-1. **What new authority or trusted context was introduced?**
+1. **What are we working on?**
     - the identity that authorises the refund, and the limit of what it may authorise
-2. **Which untrusted inputs can influence its use?**
-    - customer controlled content in tickets, messages, and attachments
-    - retrieved documentation or conversation history the agent treats as instruction
-3. **What security, privacy, safety, or operational consequence can result?**
+    - customer controlled content in tickets, messages, and attachments, and retrieved documentation or history the agent may treat as instruction
+2. **What can go wrong?**
     - value leaves the business on a mistaken or fraudulent request
     - duplicate or recursive execution repeats the same refund
-4. **How is the action constrained, approved, observed, tested, and reversed?**
-    - transaction and frequency limits
-    - human approval above a threshold
-    - audit evidence linking each refund to the request that caused it
+3. **What are we going to do about it?**
+    - transaction and frequency limits, and human approval above a threshold
     - detection and reversal of an incorrect refund
+4. **Did we do a good job?**
+    - audit evidence linking each refund to the request that caused it
+    - a refund specific case in the evaluation suite, re-run before the next model or provider change
 
 ### Further Reading
 
@@ -95,4 +92,5 @@ Refreshing the model around that change:
 
 [agentictop10]: https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/
 [apptm]: https://owasp.org/www-project-threat-modeling/#div-application-tm
+[fourq]: https://github.com/adamshostack/4QuestionFrame
 [masguide]: https://genai.owasp.org/resource/multi-agentic-system-threat-modeling-guide-v1-0/
