@@ -25,7 +25,7 @@ Use [Shostack's Four Question Framework][fourq] as a methodology-neutral startin
 3. **What are we going to do about it?** Prioritize risks and define mitigations, design changes, tests, or follow-up work.
 4. **Did we do a good job?** Review outcomes, track decisions and assumptions, and revisit remaining risks over time.
 
-The [Threat Modeling tab][tmtab] introduces the practice, the [Application Threat Modeling tab][apptm] describes a practical application workflow, the [AI and Agentic Threat Modeling tab][aitm] covers adaptive and agentic components, and the [Resources tab][res] lists tools, references, and related OWASP projects.
+The [Threat Modeling tab][tmtab] introduces the practice, the [Application Threat Modeling tab][apptm] describes a practical application workflow, the [AI and Agentic Threat Modeling tab][aitm] covers AI components, and the [Resources tab][res] lists tools, references, and related OWASP projects.
 
 This project will gather techniques, methodologies, tools and examples. We will group these using the four questions. This will allow people to easily find advice they can use.
 

@@ -11,13 +11,13 @@ tags: threatmodeling
 
 ## AI and Agentic Threat Modeling
 
-This page extends the "When to Threat Model" guidance on the [Application Threat Modeling tab][apptm] for adaptive and agentic components. It assumes you are already familiar with the general threat modeling process described there.
+This page extends the "When to Threat Model" guidance on the [Application Threat Modeling tab][apptm] for AI components. It assumes you are already familiar with the general threat modeling process described there.
 
-### Refresh Triggers for Adaptive and Agentic Components
+### Refresh Triggers for AI Components
 
 The general guidance assumes a change is visible in the architecture or dataflow. Agentic components do not always meet that assumption: their behaviour, authority, or effects can shift between deployments without any visible change to either. A threat model can become stale even when the architecture and dataflow look unchanged.
 
-Adaptive and agentic components may gain new authority, new context, or the ability to create external effects. Refresh the relevant part of the threat model when any of these change:
+AI components may gain new authority, new trusted inputs, or the ability to create external effects. Refresh the relevant part of the threat model when any of these change:
 
 - **Tools and actions:** APIs, plugins, MCP servers, commands, write operations, or other executable capabilities.
 - **Identity and authority:** Credentials, service identities, delegated permissions, impersonation rights, scopes, or tenant access.

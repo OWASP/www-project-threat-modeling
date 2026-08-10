@@ -91,7 +91,7 @@ threats” is part of sprint delivery or merging, while the broader question is 
 
 After a security incident, going back and checking the threat models can be an important process.
 
-##### Refresh Triggers for Adaptive and Agentic Components
+##### Refresh Triggers for AI Components
 
 The guidance above assumes a change is visible in the architecture or dataflow. Agentic components do not always meet that assumption: their behaviour, authority, or effects can shift between deployments without any visible change to either. A threat model can become stale even when the architecture and dataflow look unchanged.
 
