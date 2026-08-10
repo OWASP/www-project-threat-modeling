@@ -31,7 +31,7 @@ Adaptive and agentic components may gain new authority, new context, or the abil
 
 ### Noticing that a Trigger has Fired
 
-None of the changes above need a code change that appears in a normal diff of services or dataflow. They arrive in configuration, instructions, and tool registries instead, so the practical answer is to make those artifacts the thing that gets reviewed.
+None of the changes above need a code change that appears in a normal diff of services or dataflow, and few of them respect a feature's development cycle: a tool is added, a policy flag flips, or a model is bumped long after the feature was considered done. They arrive in configuration, instructions, and tool registries instead, so the practical answer is to make those artifacts the thing that gets reviewed.
 
 The unifying idea is that granting a tool or a permission to an agent is the same kind of act as granting an IAM permission to a service account, and deserves the same review cadence, the same record of who approved it, and the same periodic recertification. It usually does not get that, because it ships as a one line addition to a list rather than as an infrastructure change.
 
