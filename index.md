@@ -18,14 +18,14 @@ This project provides information on threat modeling techniques for applications
 
 ## New to threat modeling? Start here
 
-Use [Shostack's Four Question Framework](https://github.com/adamshostack/4QuestionFrame) as a methodology-neutral starting point:
+Use [Shostack's Four Question Framework][fourq] as a methodology-neutral starting point:
  
 1. **What are we working on?** Understand the project scope, and possibly the system, users, dependencies, assumptions, or trust boundaries.
 2. **What can go wrong?** Identify threats, misuse cases, design assumptions, and security or privacy concerns.
 3. **What are we going to do about it?** Prioritize risks and define mitigations, design changes, tests, or follow-up work.
 4. **Did we do a good job?** Review outcomes, track decisions and assumptions, and revisit remaining risks over time.
 
-The [Threat Modeling tab](https://owasp.org/www-project-threat-modeling/#div-threatmodeling) introduces the practice, the [Application Threat Modeling tab](https://owasp.org/www-project-threat-modeling/#div-application-tm) describes a practical application workflow, and the [Resources tab](https://owasp.org/www-project-threat-modeling/#div-resources) lists tools, references, and related OWASP projects.
+The [Threat Modeling tab][tmtab] introduces the practice, the [Application Threat Modeling tab][apptm] describes a practical application workflow, the [AI and Agentic Threat Modeling tab][aitm] covers adaptive and agentic components, and the [Resources tab][res] lists tools, references, and related OWASP projects.
 
 This project will gather techniques, methodologies, tools and examples. We will group these using the four questions. This will allow people to easily find advice they can use.
 
@@ -44,4 +44,10 @@ This project follows a number of principles that all contributions must adhere t
 - We are vendor, methodology and tool independent: we strive to have examples in as many methodologies and/or tools as possible. 
 - Open discussion is promoted: all topics are open for discussion with just one rule: don't be a jerk. If you feel information is lacking or missing, let us know via the OWASP #threat-modeling slack channel.
 - We come to an agreement: we discuss things mainly in google docs and on slack, if the project leaders feel a consensus is made, we will publish the content to our main website. All published content can be changed by submitting change requests on the Github repository that serves the website. 
+
+[aitm]: https://owasp.org/www-project-threat-modeling/#div-ai-tm
+[apptm]: https://owasp.org/www-project-threat-modeling/#div-application-tm
+[fourq]: https://github.com/adamshostack/4QuestionFrame
+[res]: https://owasp.org/www-project-threat-modeling/#div-resources
+[tmtab]: https://owasp.org/www-project-threat-modeling/#div-threatmodeling
 
