@@ -47,7 +47,7 @@ The inclusion of threat modeling in the SDLC can help
 
 ### 4 Questions
 
-The Threat Modeling Manifesto has adopted the [4 Questions Framework](https://github.com/adamshostack/4QuestionFrame) as the seminal framework to direct threat modeling efforts. Most threat model methodologies answer one or more of the following questions in the technical steps which they follow:
+The Threat Modeling Manifesto has adopted the [4 Questions Framework][fourq] as the seminal framework to direct threat modeling efforts. Most threat model methodologies answer one or more of the following questions in the technical steps which they follow:
 
 #### What are we building?
 
@@ -95,7 +95,7 @@ After a security incident, going back and checking the threat models can be an i
 
 The guidance above assumes a change is visible in the architecture or dataflow. Agentic components do not always meet that assumption: their behaviour, authority, or effects can shift between deployments without any visible change to either. A threat model can become stale even when the architecture and dataflow look unchanged.
 
-Revisit the model when an agent gains new tools or actions, new authority or identity, new orchestration relationships, or when its outputs gain new real world consequences. For the detailed trigger catalog, refresh heuristic, and a worked example, see the [AI and Agentic Threat Modeling](https://owasp.org/www-project-threat-modeling/#div-ai-tm) page.
+Revisit the model when an agent gains new tools or actions, new authority or identity, new orchestration relationships, or when its outputs gain new real world consequences. For the detailed trigger catalog, refresh heuristic, and a worked example, see the [AI and Agentic Threat Modeling][aitm] page.
 
 #### Threat Modeling: Engagement Versus Review
 
@@ -104,3 +104,6 @@ that participants can rapidly change based on identified threats is a high-retur
 meticulously transferred to a high-quality archival representation designed for review and presentation. Those models are useful for
 documenting what’s been decided and sharing those decisions widely within an organization. These two activities are both threat modeling,
 yet quite different.
+
+[aitm]: https://owasp.org/www-project-threat-modeling/#div-ai-tm
+[fourq]: https://github.com/adamshostack/4QuestionFrame
