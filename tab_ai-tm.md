@@ -44,6 +44,17 @@ In practice:
 - **Watch runtime tool invocation for drift, not only pre-deploy review.** A reworded instruction can make a model willing to reach for a tool it already had, in a context it had never used it in before. Alert on a rarely used tool spiking in use, or on a tool being invoked from an intent or code path it has never been paired with. No diff would show this, because the capability was there all along.
 - **Scope model and provider changes to an evaluation rather than a blanket re-review.** An upgrade can change how liberally an ambiguous request is interpreted. Re-run the safety and red team evaluation suite before rollout and treat a material shift in those results as the trigger, rather than the version number itself.
 
+As a checklist, each control paired with the drift it is there to catch:
+
+| Check | What it catches |
+| --- | --- |
+| A capability manifest exists, is versioned in the repository, and marks which tools cause an external effect | A tool added or widened with no architecture change behind it |
+| Changes to the manifest require a named reviewer from outside the feature team | A grant approved only by the person who wants it |
+| The threat model records the manifest version it was last reviewed against, enforced in CI | A manifest change that nobody carried through to the model |
+| The pull request template asks whether the change adds a tool, widens a tool's scope, or adds a data source the component can act on | The one line change that looked routine |
+| Runtime alerting on unusual tool invocation: a rarely used tool spiking, or a tool called from an intent it has never been paired with | Behaviour drift with no diff behind it at all |
+| The safety and red team evaluation suite is re-run before a model or provider change ships | An upgrade that interprets the same instructions more liberally |
+
 Where none of this exists yet, the fallback is a standing agenda item: at each release review, ask what the component can do now that it could not do at the previous release.
 
 ### Refresh Heuristic: Four Questions
