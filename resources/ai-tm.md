@@ -2,9 +2,7 @@
 
 title: ai-tm
 displaytext: AI and Agentic Threat Modeling
-layout:  null
-tab: true
-order: 3
+layout: col-sidebar
 tags: threatmodeling
 
 ---

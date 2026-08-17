@@ -105,5 +105,5 @@ meticulously transferred to a high-quality archival representation designed for 
 documenting what’s been decided and sharing those decisions widely within an organization. These two activities are both threat modeling,
 yet quite different.
 
-[aitm]: https://owasp.org/www-project-threat-modeling/#div-ai-tm
+[aitm]: https://owasp.org/www-project-threat-modeling/resources/ai-tm
 [fourq]: https://github.com/adamshostack/4QuestionFrame

@@ -25,7 +25,7 @@ Use [Shostack's Four Question Framework][fourq] as a methodology-neutral startin
 3. **What are we going to do about it?** Prioritize risks and define mitigations, design changes, tests, or follow-up work.
 4. **Did we do a good job?** Review outcomes, track decisions and assumptions, and revisit remaining risks over time.
 
-The [Threat Modeling tab][tmtab] introduces the practice, the [Application Threat Modeling tab][apptm] describes a practical application workflow, the [AI and Agentic Threat Modeling tab][aitm] covers AI components, and the [Resources tab][res] lists tools, references, and related OWASP projects.
+The [Threat Modeling tab][tmtab] introduces the practice, the [Application Threat Modeling tab][apptm] describes a practical application workflow, the [AI and Agentic Threat Modeling page][aitm] covers AI components, and the [Resources tab][res] lists tools, references, and related OWASP projects.
 
 This project will gather techniques, methodologies, tools and examples. We will group these using the four questions. This will allow people to easily find advice they can use.
 
@@ -45,7 +45,7 @@ This project follows a number of principles that all contributions must adhere t
 - Open discussion is promoted: all topics are open for discussion with just one rule: don't be a jerk. If you feel information is lacking or missing, let us know via the OWASP #threat-modeling slack channel.
 - We come to an agreement: we discuss things mainly in google docs and on slack, if the project leaders feel a consensus is made, we will publish the content to our main website. All published content can be changed by submitting change requests on the Github repository that serves the website. 
 
-[aitm]: https://owasp.org/www-project-threat-modeling/#div-ai-tm
+[aitm]: https://owasp.org/www-project-threat-modeling/resources/ai-tm
 [apptm]: https://owasp.org/www-project-threat-modeling/#div-application-tm
 [fourq]: https://github.com/adamshostack/4QuestionFrame
 [res]: https://owasp.org/www-project-threat-modeling/#div-resources
